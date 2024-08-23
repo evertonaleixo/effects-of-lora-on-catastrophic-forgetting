@@ -131,10 +131,14 @@ Our project focuses on Dynamic Networks due to their efficiency in handling CF w
 To set up the project locally, follow these steps:
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 git clone https://github.com/evertonaleixo/effects-of-lora-on-catastrophic-forgetting.git
 cd effects-of-lora-on-catastrophic-forgetting/
 pip install -r requirements.txt
 ```
+
+Always use a isolated environment to run python projects.
 
 ## Usage
 
