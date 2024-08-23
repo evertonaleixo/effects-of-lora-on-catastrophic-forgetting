@@ -138,6 +138,31 @@ cd effects-of-lora-on-catastrophic-forgetting/
 pip install -r requirements.txt
 ```
 
+### Troubleshooting
+
+#### Import error
+
+If you have problem with the following import:
+
+```python
+from avalanche.benchmarks.classic import SplitCIFAR10
+```
+
+with a error like this:
+
+```bash
+     24 except Exception:
+---> 25     from pytorchcv.models.common import DwsConvBlock
+     28 def remove_sequential(network: nn.Module, all_layers: List[nn.Module]):
+     29     for layer in network.children():
+     30         # if sequential layer, apply recursively to layers in sequential layer
+
+ImportError: cannot import name 'DwsConvBlock' from 'pytorchcv.models.common' 
+```
+
+is because **pytorchcv** and **avalanche-lib** dependencies are having conflit. To resolve it, downgrade to pytorchcv to 0.0.67 version.
+
+
 Always use a isolated environment to run python projects.
 
 ## Usage

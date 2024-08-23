@@ -4,3 +4,4 @@ avalanche-lib
 pandas
 jupyter
 matplotlib
+pytorchcv==0.0.67
