@@ -5,3 +5,5 @@ pandas
 jupyter
 matplotlib
 pytorchcv==0.0.67
+
+pytest
