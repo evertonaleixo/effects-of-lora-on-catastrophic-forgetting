@@ -17,23 +17,17 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from torch.optim import lr_scheduler
 
 import gc
 import random
-import pickle
 from copy import deepcopy
 import numpy as np
 
-
 import argparse
 import torch
-from torch.utils.data import DataLoader
-from torch.optim import Adam
 
 
-
-def __start_wandb(experiment_number, learning_rate, weight_decay, batch_size, dataset_name, max_iters, patience, number_of_tasks):
+def __start_wandb(project_name, experiment_number, learning_rate, weight_decay, batch_size, dataset_name, max_iters, patience, number_of_tasks):
     config = {
         "learning_rate": learning_rate,
         "weight_decay": weight_decay,
@@ -47,7 +41,7 @@ def __start_wandb(experiment_number, learning_rate, weight_decay, batch_size, da
     }
     wandb.init(
         # set the wandb project where this run will be logged
-        project=f"cf-lora-{dataset_name}-loravgg-parameters",
+        project=project_name,
         name=f"lora-vgg19-lr-{learning_rate}-{number_of_tasks}tasks-lora-{experiment_number}",
         
         # track hyperparameters and run metadata
@@ -102,13 +96,12 @@ def train(dataset_name, max_iters, patience, batch_size, learning_rate, weight_d
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     dataset = get_dataset(name=dataset_name)
     tasks = [i for i in range(dataset.metadata.n_split_experiences)]
-    acc_by_task = {i: 0 for i in range(dataset.metadata.n_split_experiences)}
-    results_diff_models = {}
     best_model = {}
 
     __fronzen_seeds()
 
     __start_wandb(
+        project_name=f"cf-lora-{dataset_name}-loravgg19",
         experiment_number=experiment_number,
         learning_rate=learning_rate,
         weight_decay=weight_decay,
