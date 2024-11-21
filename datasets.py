@@ -25,6 +25,10 @@ def get_dataset_metadata(name: str) -> DatasetMetadata:
         'cub-200': DatasetMetadata(
             total_number_classes=200,
             n_split_experiences=5
+        ),
+        'cifar-100': DatasetMetadata(
+            total_number_classes=100,
+            n_split_experiences=10
         )
     }
 
