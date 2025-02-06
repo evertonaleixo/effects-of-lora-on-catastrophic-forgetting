@@ -190,3 +190,30 @@ In summary, **ConvLoRA** provides a more parameter-efficient solution to CF, mai
 - Hu et al., "LoRA: Low-Rank Adaptation of Large Language Models," *ICLR*, 2022. [DOI:10.48550/arXiv.2106.03702]
 - Sidra Aleem et al., "ConvLoRA: Low-Rank Adaptation for Convolutional Layers," *Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI)*, 2024. [GitHub Repository: https://github.com/aleemsidra/ConvLoRA] [Published at: https://biomedicalimaging.org/2024/]
 - Zacarias et al., "SenaCNN: Overcoming Catastrophic Forgetting in CNNs by Selective Network Augmentation," *Journal of Artificial Neural Networks*, 2018. [DOI:10.1007/s12046-018-0888-7]
+
+## How to cite this repository
+
+```
+@software{everton_lima_aleixo_2025_14824807,
+  author       = {Everton Lima Aleixo},
+  title        = {evertonaleixo/effects-of-lora-on-catastrophic-
+                   forgetting: Experiments to Handle CF using Low
+                   Rank Adapters
+                  },
+  month        = feb,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {Adapters},
+  doi          = {10.5281/zenodo.14824807},
+  url          = {https://doi.org/10.5281/zenodo.14824807},
+  swhid        = {swh:1:dir:07b83e6049358d64d74e0cd5db2adf9499a0a6a3
+                   ;origin=https://doi.org/10.5281/zenodo.14824806;vi
+                   sit=swh:1:snp:1ed93a22e0d2188cdf4b03194a8407b59498
+                   5a04;anchor=swh:1:rel:bc16b5eb39573667a25570f08f9b
+                   4fa83b22f049;path=evertonaleixo-effects-of-lora-
+                   on-catastrophic-forgetting-2073070
+                  },
+}
+```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14824807.svg)](https://doi.org/10.5281/zenodo.14824807)
