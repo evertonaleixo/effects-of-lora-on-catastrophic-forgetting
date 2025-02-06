@@ -1,0 +1,58 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 1.0e-05
+weight_decay:
+  desc: null
+  value: 0.0005
+batch_size:
+  desc: null
+  value: 8
+optimizer:
+  desc: null
+  value: Adam
+architecture:
+  desc: null
+  value: VGG19
+dataset:
+  desc: null
+  value: CUB-200
+epochs:
+  desc: null
+  value: 300
+lr_schedule:
+  desc: null
+  value: ReduceLROnPlateau - Patience 10 - Monitoring Val Accuracy
+description:
+  desc: null
+  value: Testing CUBs200 splited into 5 tasks.
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.1
+    cli_version: 0.17.7
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1724679352
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.12.1
+      5: 0.17.7
+      8:
+      - 1
+      - 5
+      13: linux-x86_64

@@ -1,0 +1,1 @@
+{"train_acc": 0.0, "train_loss": 5.296966552734375, "val_acc": 0.0, "val_loss": 5.2964186668396, "task": 2, "Accuracy": 0.0, "Loss": 5.2964186668396, "patience": 11, "best_val_acc": 0, "learning_rate": 1.0000000000000002e-07, "_timestamp": 1725000628.0671337, "_runtime": 22622.861323595047, "_step": 139}

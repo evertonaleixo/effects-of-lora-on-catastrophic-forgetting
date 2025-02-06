@@ -1,0 +1,147 @@
+{
+    "os": "Linux-6.8.0-40-generic-x86_64-with-glibc2.35",
+    "python": "3.12.1",
+    "heartbeatAt": "2024-08-26T08:01:57.876050",
+    "startedAt": "2024-08-26T08:01:56.555816",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Train-VGG19-CUBs200.ipynb",
+    "codePathLocal": "Train-VGG19-CUBs200.ipynb",
+    "root": "/home/everton_aleixo/Documents/effects-of-lora-on-catastrophic-forgetting",
+    "git": {
+        "remote": "git@github.com:evertonaleixo/effects-of-lora-on-catastrophic-forgetting.git",
+        "commit": "56f7fcbde0efc1e6c4d04b34333f8458a196ca63"
+    },
+    "email": "everton.jiujitsu@gmail.com",
+    "host": "GMEPN008631",
+    "username": "everton_aleixo",
+    "executable": "/home/everton_aleixo/Documents/mahle/server_python/venv/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1133.5202999999997,
+        "min": 400.0,
+        "max": 4800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1458.972,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1086.679,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 399.86,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1280.346,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 400.06,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1800.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1900.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 5200.0
+        },
+        {
+            "current": 920.95,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1640.609,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 771.29,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1517.911,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1793.228,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1799.759,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1698.493,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1302.573,
+            "min": 400.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 937.3305015563965,
+            "used": 319.17776107788086
+        }
+    },
+    "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.00513458251953
+    }
+}
