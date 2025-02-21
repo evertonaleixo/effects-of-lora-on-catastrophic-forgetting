@@ -203,10 +203,10 @@ In summary, **ConvLoRA** provides a more parameter-efficient solution to CF, mai
   year         = 2025,
   publisher    = {Zenodo},
   version      = {Adapters},
-  doi          = {10.5281/zenodo.14824807},
-  url          = {https://doi.org/10.5281/zenodo.14824807},
+  doi          = {10.5281/zenodo.14903189},
+  url          = {https://doi.org/10.5281/zenodo.14903189},
   swhid        = {swh:1:dir:07b83e6049358d64d74e0cd5db2adf9499a0a6a3
-                   ;origin=https://doi.org/10.5281/zenodo.14824806;vi
+                   ;origin=https://doi.org/10.5281/zenodo.14903189;vi
                    sit=swh:1:snp:1ed93a22e0d2188cdf4b03194a8407b59498
                    5a04;anchor=swh:1:rel:bc16b5eb39573667a25570f08f9b
                    4fa83b22f049;path=evertonaleixo-effects-of-lora-
@@ -215,4 +215,4 @@ In summary, **ConvLoRA** provides a more parameter-efficient solution to CF, mai
 }
 ```
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14824807.svg)](https://doi.org/10.5281/zenodo.14824807)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14824807.svg)](https://doi.org/10.5281/zenodo.14903189)
