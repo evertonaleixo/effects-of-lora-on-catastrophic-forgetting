@@ -172,14 +172,13 @@ Always use a isolated environment to run python projects.
 
 The evaluation results of **ConvLoRA** demonstrate its effectiveness in mitigating Catastrophic Forgetting (CF) while limiting the growth of trainable parameters, particularly when compared to baseline models like **SenaCNN**. Below is a summary of accuracy and parameter growth for ConvLoRA and SenaCNN on the **CIFAR-100** dataset:
 
-| Method     | Accuracy (CIFAR-100) | Parameter Growth |
-|------------|----------------------|------------------|
-| ConvLoRA   | 85%                  | +45%             |
-| SenaCNN    | 84%                  | +82%             |
+| Method     | Accuracy (CIFAR-100)   | Parameter Growth         |
+|------------|------------------------|--------------------------|
+| ConvLoRA   | 85.1%                  | +2,791,099               |
+| SenaCNN    | 85.9%                  | +126,101,056             |
 
 ### Key Observations:
-- ConvLoRA manages to retain **85% accuracy** while adding only **45%** to the number of parameters.
-- **SenaCNN**, by contrast, achieves **84% accuracy**, but at the cost of increasing the parameter count by **82%**.
+- ConvLoRA manages to retain **85% accuracy** while adding only **2.2%** to the number of parameters.
 - ConvLoRA also shows **faster convergence** and **better parameter efficiency**, making it ideal for resource-constrained environments.
 
 In summary, **ConvLoRA** provides a more parameter-efficient solution to CF, maintaining high accuracy while reducing computational and memory overhead.

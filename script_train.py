@@ -1,7 +1,6 @@
 import sys
 import os
 
-# Adiciona o diretório pai ao caminho de pesquisa de módulos
 sys.path.append(os.path.abspath(os.path.join('..')))
 
 
